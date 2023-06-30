@@ -2,11 +2,11 @@
   "description": "Actual is a budgetting app.",
   "docker_registry": "https://index.docker.io/v1/",
   "name": "actualbudget/actual-server:latest",
-  "image_src": "vs-code.png",
+  "image_src": "actual.png",
   "categories": [
-    "Development"
+    "testt"
   ],
-  "friendly_name": "Visual Studio Code",
+  "friendly_name": "Actual budget",
   "architecture": [
     "amd64",
     "arm64"
