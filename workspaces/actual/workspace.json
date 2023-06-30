@@ -3,6 +3,17 @@
   "docker_registry": "https://index.docker.io/v1/",
   "name": "actualbudget/actual-server:latest",
   "image_src": "actual.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
   "categories": [
     "testt"
   ],
