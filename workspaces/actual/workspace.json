@@ -7,23 +7,15 @@
     "hostname": "kasm"
   },
   "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+  "privileged": true
     }
   },
-  "categories": [
-    "testt"
-  ],
-  "friendly_name": "Actual budget",
+  "friendly_name": "Kali",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     "1.13.x"
   ],
-  "uncompressed_size_mb": 2170
+  "uncompressed_size_mb": 4500
 }
